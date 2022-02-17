@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortalAPI\\StudentPortalAPI\\StudentPortalAPI.csproj": {}
+    "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortal\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortalAPI\\StudentPortalAPI\\StudentPortalAPI.csproj": {
+    "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortal\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortalAPI\\StudentPortalAPI\\StudentPortalAPI.csproj",
-        "projectName": "StudentPortalAPI",
-        "projectPath": "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortalAPI\\StudentPortalAPI\\StudentPortalAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortal\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
+        "projectName": "StudentAdminPortal.API",
+        "projectPath": "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortal\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
         "packagesPath": "C:\\Users\\sbadrinarayanan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortalAPI\\StudentPortalAPI\\obj\\",
+        "outputPath": "C:\\Users\\sbadrinarayanan\\source\\repos\\StudentPortal\\StudentAdminPortal.API\\StudentAdminPortal.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sbadrinarayanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,24 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

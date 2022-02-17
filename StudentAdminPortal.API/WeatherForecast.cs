@@ -1,6 +1,6 @@
 using System;
 
-namespace StudentPortalAPI
+namespace StudentAdminPortal.API
 {
     public class WeatherForecast
     {
